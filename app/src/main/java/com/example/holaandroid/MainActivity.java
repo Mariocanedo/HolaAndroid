@@ -11,13 +11,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String nameApp= "hola que pasa";
-        TextView mTextView =findViewById(R.id.textView);
-        int number1 =10;
-        int number2 =20;
 
-        //mTextView.setText("El resultado es :"+ (number1 + number2));
-        mTextView.setText(nameApp);
+        String nameApp ="Hola Android";
+        TextView mEditText = findViewById(R.id.etiqueta1);
+        mEditText.setText(nameApp);
+
+
 
     }
 }
